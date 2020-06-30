@@ -1,0 +1,349 @@
+@font-face{
+    font-family: Larish;
+    src: url(../font/LarishNeueSemibold.woff);   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Larish;
+}
+section:nth-of-type(1){
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+section:nth-of-type(1) span{
+    display: block;
+    background-color: gray;
+    height: 30vh;
+    width: 1px;
+    margin: 0 auto;  
+      
+}
+section:nth-of-type(1) p {
+    margin-top: 50px;
+}
+section:nth-of-type(1) h1 {
+    font-size: 7.5em;
+}
+section:nth-of-type(1) h2{
+    font-size: 7em;
+    margin-top: -50px;
+    color: black;
+    -webkit-text-stroke: 2px white;
+}
+section:nth-of-type(1) h3{
+    font-size: 1.3em;
+}
+section:nth-of-type(1) div{
+    display: flex;
+    justify-content: space-between;
+    margin: 6% 10% 0 10%;  
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 15px 50px;
+}
+a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+/* ___________________________________ section 2 */
+section:nth-of-type(2) {
+    height: 100vh;
+    background-color: #000;
+}
+section:nth-of-type(2) h1{
+    font-size: 5.5em;
+    padding-top: 9%;
+    padding-left: 10%; 
+    color: #fff;
+}
+
+/* _____________________________________section 3 */
+
+section:nth-of-type(3){
+    height: 100vh;
+    background-color: #000;
+    /* display: flex; 
+    justify-content: space-between; */
+    display: block;
+    position: relative;
+}
+section:nth-of-type(3) div{
+    position: absolute;
+    color: #fff;
+    left: 10%;
+    top: 25%;
+    line-height: 60px;
+}
+section:nth-of-type(3) h4 {
+    font-size: 1em;
+}
+section:nth-of-type(3) p {
+    font-size: 5em;
+}
+section:nth-of-type(3) img{
+    position: absolute; 
+    top: 0;
+    right: 10%;
+    width: 35%;
+}
+/* __________________________________ section 4 */
+section:nth-of-type(4){
+    height: 250vh;
+    background-color: #fff;
+    /* display: block; */
+    position: relative;
+}
+section:nth-of-type(4) img{
+    position: absolute;
+    width: 22%;
+}
+section:nth-of-type(4) img:nth-of-type(1){
+    right: 10%;
+    top: -3%;
+}
+section:nth-of-type(4) img:nth-of-type(2){
+    top: 15%;
+    left: 5%;
+}
+section:nth-of-type(4) div{
+    position: absolute;
+    top: 22.5%;
+    left: 35%;
+}
+section:nth-of-type(4) div h5 {
+    font-size: 5em;
+    line-height: 1em;
+    padding-bottom: 10px;
+}
+section:nth-of-type(4) div p {
+    line-height: 1.5em;
+}
+section:nth-of-type(4) img:nth-of-type(3){
+    width: 20%;
+    top: 32.5%;
+    right: 0;
+}
+section:nth-of-type(4) img:nth-of-type(4){
+    width: 22%;
+    top: 43%;
+    left: 20%;
+}
+section:nth-of-type(4) img:nth-of-type(5){
+    top: 52%;
+    right: 12%;
+}
+section:nth-of-type(4) img:nth-of-type(6){
+    top: 65%;
+    left: 0;
+}
+section:nth-of-type(4)>h5 {
+    position: absolute;
+    top: 67%;
+    left: 35%;
+    line-height: 2em;
+    font-size: 1em;
+}
+section:nth-of-type(4) img:nth-of-type(7){
+    position: absolute;
+    width: 40%;
+    top: 85%;
+    right: 15%;
+    z-index: 1;
+}
+/* __________________________________________section 5 */
+
+section:nth-of-type(5){
+    height: 200vh;
+    background-color: #000;
+    color: #fff;
+    padding-top: 10%;
+    padding-left: 10%;
+    position: relative;
+}
+section:nth-of-type(5) p{
+    padding-top: 15%;
+}
+section:nth-of-type(5) div {
+    display: flex;
+    justify-content: space-between;
+}
+
+section:nth-of-type(5) div h1 {
+    font-size: 5em;
+}
+section:nth-of-type(5) div h3{
+    font-size: 1.8em;
+    padding-right: 15%;
+}
+
+section :nth-of-type(5) img{
+    /* position: relative; */
+}
+section:nth-of-type(5) img:nth-of-type(1){
+    position: absolute;
+    width: 62%;
+    padding-top: 20%;
+    z-index: 1;
+}
+
+section:nth-of-type(5) img:nth-of-type(2){
+    position: absolute;
+    width: 33%;
+    right: 10%;
+    padding-top: 34%;
+    z-index: 2;
+}
+/* __________________________________________section 6 */
+section:nth-of-type(6) {
+    background-color: #fff;
+    height: 200vh;
+    padding-top: 25%;
+    padding-left: 10%;
+    overflow: hidden;
+    /* display: block; */
+    position: relative;
+}
+
+section:nth-of-type(6) div{
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+section:nth-of-type(6) h1{
+    font-size: 5em;
+}
+section:nth-of-type(6) h3{
+    font-size: 1.8em;
+    padding-right: 10%;
+}
+section:nth-of-type(6) {
+    /* display: block;  */
+    /* position: relative; */
+}
+/*________________________________________ anmation 1 */
+/*________________________________________ anmation 1 */
+/*________________________________________ anmation 1 */
+/*________________________________________ anmation 1 */
+section:nth-of-type(6) img:nth-of-type(1){
+    position: absolute; 
+    width: 30%;
+    right: -10vw;
+    top: -150px; 
+    animation: rotation1 10s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes rotation1{
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+/*________________________________________ anmation 1 */
+/*________________________________________ anmation 1 */
+/*________________________________________ anmation 1 */
+/*________________________________________ anmation 1 */
+/*________________________________________ anmation 1 */
+section:nth-of-type(6) img:nth-of-type(2){
+    width: 62%;
+    position: absolute;
+    right: 7%;
+    /* top: 45%; */
+    padding-top: 10%;
+    
+}
+section:nth-of-type(6) img:nth-of-type(3){
+    width: 30%;
+    position: absolute;
+    padding-top: 20%;
+    
+}
+
+/* ___________________________________________section 7 */
+
+footer{
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    height: 90vh;
+    padding: 10%  0 0 7%;
+    overflow: hidden;
+}
+footer p {
+    padding-top: 10px;
+    font-size: 2em;
+    max-width: 40%;
+    padding-bottom: 50px;
+}
+footer div:nth-of-type(1) {
+    position: absolute;
+    line-height: 3em;
+    margin-top: 10%;
+}
+footer div ul {
+    display: flex;
+    list-style: none;
+    align-items: baseline;
+    
+}
+footer div ul li img{
+    width: 25px;
+}
+footer div ul li {
+    width: 30px;
+}
+footer div h5{
+    font-size: 1em;
+}
+footer div:nth-of-type(2){
+    display: flex;
+    align-items: baseline;
+    margin-left: 70%;
+    margin-top: 15%;
+}
+
+footer div:nth-of-type(2) img{
+    width: 100px;
+}
+
+/* ________ anmation footer */
+footer div:nth-of-type(3) {
+    position: absolute;
+
+}
+footer .Datum{
+    position: absolute;
+    font-size: 6em;
+    top: -30%;
+    left: 35%;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    color: #000;
+    background-color: #fff;
+    white-space: nowrap;
+    animation: rotation2 20s linear infinite ;
+}
+footer .Datum span{
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+}
+
+@keyframes rotation2{
+    0% {
+        transform: rotate(45deg) translateX(0);
+    }
+    100% {
+        transform: rotate(45deg) translateX(-50%);
+    }
+}
+
